@@ -1,0 +1,20 @@
+PROCEDURE ONE;
+	BEGIN
+    	WRITELN(1);
+    	WRITELN(2);
+    	WRITELN(3);
+    	WRITELN(4);
+    	WRITELN(5);
+    	WRITELN(6);
+    	WRITELN(7);
+    	WRITELN(8);
+    	WRITELN(9);
+    	WRITELN(10);
+	END;
+BEGIN
+    COBEGIN
+        ONE;
+        ONE;
+        ONE
+    COEND;
+END.
